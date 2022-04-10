@@ -4,9 +4,10 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-11 01:48:38
+ * @LastEditTime: 2022-04-11 02:05:03
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
+ * Repository: https://github.com/Yulv-git/Search-for-Typos
 -->
 
 <h1><center> Search-for-Typos </h1></center>
@@ -22,7 +23,7 @@
 
 # 1. Features
 
-Currently, only partial typos searches are supported.
+Currently, only some typos are supported. Also, binary text are not supported.
 
 - repeated English words
 - repeated Chinese words
