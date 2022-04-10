@@ -4,12 +4,13 @@
  # @Date: 2022-04-09 22:01:30
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-04-11 01:45:17
+ # @LastEditTime: 2022-04-11 01:52:50
  # @FilePath: /Search-for-Typos/search_typos.sh
  # @Description: Search for typos in code or text.
 ### 
 
-target_dir='./'
+target_dir="$1"
+echo "target_dir: ${target_dir}"
 
 # -------------------------------------------------------------------------------------------
 
