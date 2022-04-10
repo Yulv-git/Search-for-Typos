@@ -5,7 +5,7 @@
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
  # @LastEditTime: 2022-04-10 21:40:07
- # @FilePath: /AI_Assistant/search_typos.sh
+ # @FilePath: /Search-for-Typos-in-Code-or-Text/search_typos.sh
  # @Description: Search for typos in code or text.
 ### 
 
