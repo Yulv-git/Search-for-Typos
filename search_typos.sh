@@ -4,7 +4,7 @@
  # @Date: 2022-04-09 22:01:30
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-04-11 16:29:19
+ # @LastEditTime: 2022-04-11 23:41:24
  # @FilePath: /Search-for-Typos/search_typos.sh
  # @Description: Search for typos in code or text.
  # Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -14,6 +14,7 @@ target_dir="$1"
 echo "target_dir: ${target_dir}"
 
 
+# repeated English words
 repeated_words_en=("do" "does" "have" "is" "are" \
                   "of" "for" "in" "on" "at" "to" "with" "from" \
                   "a" "an" "the" \
@@ -29,6 +30,7 @@ for item in ${repeated_words_en[@]}; do
 done
 
 
+# repeated Chinese characters
 repeated_characters_zh=("的" "是" "不" "就" "我" "他" "为" \
                        "、" "，" "；" "：" "。"
                        )
@@ -41,6 +43,7 @@ for item in ${repeated_characters_zh[@]}; do
 done
 
 
+# typos of English words/strings
 typos_en=("modle" \
          "achive" "attrbute" "recieve" "indicies" "instrution" "occurences" "atleast" "ouput" "retrive"
          )
@@ -52,6 +55,7 @@ for item in ${typos_en[@]}; do
 done
 
 
+# wrong Chinese phrases
 wrong_phrases_zh=("既使" "即然" \
                  "[想向象][^、，；：。\s][一那这]样" ".[副辐付附]图"
                  )
@@ -60,4 +64,15 @@ for item in ${wrong_phrases_zh[@]}; do
     echo
     echo "Is this Chinese phrase '${item}' used wrong???"
     egrep -r -n --color=auto "${item}" ${target_dir}
+done
+
+
+# wrong English phrases
+wrong_phrases_en=("reasoning framework"
+                 )
+
+for item in ${wrong_phrases_en[@]}; do
+    echo
+    echo "Is this English phrase '${item}' used wrong???"
+    egrep -r -i -n --color=auto "${item}" ${target_dir}
 done

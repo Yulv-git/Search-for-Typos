@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-11 14:25:28
+ * @LastEditTime: 2022-04-11 23:46:59
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -30,6 +30,7 @@ Currently, only some typos are supported. Also, binary text are not supported.
 - repeated Chinese characters
 - typos of English words/strings
 - wrong Chinese phrases
+- wrong English phrases
 
 # 2. Using
 
