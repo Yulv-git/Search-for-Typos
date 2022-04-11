@@ -4,7 +4,7 @@
  # @Date: 2022-04-09 22:01:30
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-04-11 11:35:09
+ # @LastEditTime: 2022-04-11 11:57:19
  # @FilePath: /Search-for-Typos/search_typos.sh
  # @Description: Search for typos in code or text.
  # Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -47,6 +47,6 @@ typos_en=("modle" \
 
 for item in ${typos_en[@]}; do
     echo
-    echo "Could the word/string ${item} be a typo???"
+    echo "Could the word/string '${item}' be a typo???"
     grep -r -i -n --color=auto "${item}" ${target_dir}
 done
