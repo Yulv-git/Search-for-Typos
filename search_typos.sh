@@ -4,7 +4,7 @@
  # @Date: 2022-04-09 22:01:30
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-04-11 23:41:24
+ # @LastEditTime: 2022-04-14 10:34:50
  # @FilePath: /Search-for-Typos/search_typos.sh
  # @Description: Search for typos in code or text.
  # Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -68,11 +68,11 @@ done
 
 
 # wrong English phrases
-wrong_phrases_en=("reasoning framework"
+wrong_phrases_en=("reasoning_framework"
                  )
 
 for item in ${wrong_phrases_en[@]}; do
-    echo
-    echo "Is this English phrase '${item}' used wrong???"
-    egrep -r -i -n --color=auto "${item}" ${target_dir}
+    item2=${item//'_'/' '}
+    echo "Is this English phrase '${item2}' used wrong???"
+    grep -r -i -w -n --color=auto "${item2}" ${target_dir}
 done
