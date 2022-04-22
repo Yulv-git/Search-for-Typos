@@ -4,7 +4,7 @@
  # @Date: 2022-04-09 22:01:30
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-04-22 11:41:29
+ # @LastEditTime: 2022-04-22 20:02:41
  # @FilePath: /Search-for-Typos/search_typos.sh
  # @Description: Search for typos in code or text.
  # Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -60,7 +60,7 @@ done
 
 # wrong Chinese phrases
 wrong_phrases_zh=("既使" "即然" \
-                 "讲会" "讲按照" \
+                 "讲会" "讲按照" "预料库" \
                  "[想向象][^、，；：。\s][一那这]样" ".[副辐付附]图"
                  )
 
