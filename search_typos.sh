@@ -4,7 +4,7 @@
  # @Date: 2022-04-09 22:01:30
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-04-22 20:02:41
+ # @LastEditTime: 2022-04-23 10:24:13
  # @FilePath: /Search-for-Typos/search_typos.sh
  # @Description: Search for typos in code or text.
  # Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -48,7 +48,7 @@ typos_en=("modle" \
          "achive" "attrbute" "recieve" "indicies" "instrution" "occurences" "atleast" "ouput" "retrive" \
          "seperate" "humerous" "acheive" "accross" "agressive" "appearence" "enviroment" "fourty" "futher" \
          "goverment" "neccessary" "occured" "succesful" "truely" "expriment" "traing" "chanel" "toturial" \
-         "arguement" "begining" "comming" "costom"
+         "arguement" "begining" "comming" "costom" "probabilites"
          )
 
 for item in ${typos_en[@]}; do
