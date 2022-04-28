@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-23 10:23:57
+ * @LastEditTime: 2022-04-28 20:22:19
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -54,7 +54,7 @@ Currently, only some typos are supported. Also, binary text are not supported.
 
     ``` bash
     ("modle" \
-    "achive" "attrbute" "recieve" "indicies" "instrution" "occurences" "atleast" "ouput" "retrive" \
+    "achive" "attrbute" "recieve" "indicies" "instrution" "occurences" "atleast" "atmost" "ouput" "retrive" \
     "seperate" "humerous" "acheive" "accross" "agressive" "appearence" "enviroment" "fourty" "futher" \
     "goverment" "neccessary" "occured" "succesful" "truely" "expriment" "traing" "chanel" "toturial" \
     "arguement" "begining" "comming" "costom" "probabilites"
