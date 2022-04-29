@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-28 20:22:19
+ * @LastEditTime: 2022-04-29 11:29:31
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -66,6 +66,7 @@ Currently, only some typos are supported. Also, binary text are not supported.
     ``` bash
     ("既使" "即然" \
     "讲会" "讲按照" "预料库" \
+    "，么" \
     "[想向象][^、，；：。\s][一那这]样" ".[副辐付附]图"
     )
     ```
