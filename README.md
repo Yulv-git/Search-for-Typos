@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-05-02 11:50:27
+ * @LastEditTime: 2022-05-02 22:38:23
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -12,7 +12,7 @@
 
 <h1><center> Search for Typos </h1></center>
 
-    Search for typos in code or text.
+    Search for typos in code or text. 查找文本或代码中的拼写错误/打字错误。
 
 ---
 
@@ -33,49 +33,23 @@ Currently, only some typos are supported. Also, binary text are not supported.
 
 ## 1.1. repeated English words
   
-    ``` bash
-    ("do" "does" "have" "is" "are" \
-    "of" "for" "in" "on" "at" "to" "with" "from" \
-    "a" "an" "the" \
-    "this" \
-    "one"
-    )
-    ```
+Eg: `do`, see [repeated_English_words.txt](./typos_lib/repeated_English_words.txt) for more examples.
 
 ## 1.2. repeated Chinese characters
 
-    ``` bash
-    ("的" "是" "不" "就" "我" "他" "为" \
-    "、" "，" "；" "：" "。"
-    )
-    ```
+Eg: `的`, see [repeated_Chinese_characters.txt](./typos_lib/repeated_Chinese_characters.txt) for more examples.
 
 ## 1.3. typos of English words/strings
 
-    ``` bash
-    ("modle" \
-    "achive" "attrbute" "recieve" "indicies" "instrution" "occurences" "atleast" "atmost" "ouput" "retrive" \
-    "seperate" "humerous" "acheive" "accross" "agressive" "appearence" "enviroment" "fourty" "futher" \
-    "goverment" "neccessary" "occured" "succesful" "truely" "expriment" "traing" "chanel" "toturial" \
-    "arguement" "begining" "comming" "costom" "probabilites" "reuslt" "Jeston" "metircs" "resule"
-    )
-    ```
+Eg: `modle`, see [typos_English_words_strings.txt](./typos_lib/typos_English_words_strings.txt) for more examples.
 
 ## 1.4. wrong Chinese phrases
   
-    ``` bash
-    ("既使" "即然" \
-    "讲会" "讲按照" "预料库" \
-    "[想向象][^、，；：。\s][一那这]样" ".[副辐付附]图"
-    )
-    ```
+Eg: `既使`, see [wrong_Chinese_phrases.txt](./typos_lib/wrong_Chinese_phrases.txt) for more examples.
 
 ## 1.5. wrong English phrases
 
-    ``` bash
-    ("reasoning_framework"
-    )
-    ```
+Eg: `reasoning_framework`, see [wrong_English_phrases.txt](./typos_lib/wrong_English_phrases.txt) for more examples.
 
 # 2. Using
 
