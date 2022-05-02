@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-30 21:51:26
+ * @LastEditTime: 2022-05-02 11:50:27
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -57,7 +57,7 @@ Currently, only some typos are supported. Also, binary text are not supported.
     "achive" "attrbute" "recieve" "indicies" "instrution" "occurences" "atleast" "atmost" "ouput" "retrive" \
     "seperate" "humerous" "acheive" "accross" "agressive" "appearence" "enviroment" "fourty" "futher" \
     "goverment" "neccessary" "occured" "succesful" "truely" "expriment" "traing" "chanel" "toturial" \
-    "arguement" "begining" "comming" "costom" "probabilites"
+    "arguement" "begining" "comming" "costom" "probabilites" "reuslt" "Jeston" "metircs" "resule"
     )
     ```
 
