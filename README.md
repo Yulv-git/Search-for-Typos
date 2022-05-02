@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-05-02 22:38:23
+ * @LastEditTime: 2022-05-02 23:16:35
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -56,15 +56,18 @@ Eg: `reasoning_framework`, see [wrong_English_phrases.txt](./typos_lib/wrong_Eng
 Search all text under the specified directory and its subdirectories for typos.
 
 ``` bash
+# Search typos in all files under the ./ folder and its subfolders.
 bash ./search_typos.sh ./
-bash ./search_typos_exclude_dir.sh ./ typos_show/
-bash ./search_typos_exclude.sh ./ README.md
-bash ./search_typos_exclude_dir_exclude.sh ./ typos_show/ README.md
-```
 
-- `./`: target dir
-- `./typos_show/`: exlude dir
-- `README.md`: exlude file
+# Search typos in all files under the ./ folder and its subfolders exclude typos_lib folder.
+bash ./search_typos_exclude_dir.sh ./ typos_lib/
+
+# Search typos in all files under the ./ folder and its subfolders exclude README.md file.
+bash ./search_typos_exclude.sh ./ README.md
+
+# Search typos in all files under the ./ folder and its subfolders exclude typos_lib folder and README.md file.
+bash ./search_typos_exclude_dir_exclude.sh ./ typos_lib/ README.md
+```
 
 # 3. Search Results
 
