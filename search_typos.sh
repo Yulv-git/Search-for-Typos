@@ -4,7 +4,7 @@
  # @Date: 2022-04-09 22:01:30
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-05-02 22:23:41
+ # @LastEditTime: 2022-05-02 23:38:00
  # @FilePath: /Search-for-Typos/search_typos.sh
  # @Description: Search for typos in code or text.
  # Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -32,6 +32,7 @@ do
     echo "Could the character '${item}' be repeated???"
     grep -r -n --color=auto "${item2}" ${target_dir}
 done < ./typos_lib/repeated_Chinese_characters.txt
+
 
 # typos of English words/strings
 while read item
