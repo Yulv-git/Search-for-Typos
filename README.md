@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-05-02 23:16:35
+ * @LastEditTime: 2022-05-05 20:25:20
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -32,7 +32,7 @@
 Currently, only some typos are supported. Also, binary text are not supported.
 
 ## 1.1. repeated English words
-  
+
 Eg: `do`, see [repeated_English_words.txt](./typos_lib/repeated_English_words.txt) for more examples.
 
 ## 1.2. repeated Chinese characters
@@ -44,7 +44,7 @@ Eg: `的`, see [repeated_Chinese_characters.txt](./typos_lib/repeated_Chinese_ch
 Eg: `modle`, see [typos_English_words_strings.txt](./typos_lib/typos_English_words_strings.txt) for more examples.
 
 ## 1.4. wrong Chinese phrases
-  
+
 Eg: `既使`, see [wrong_Chinese_phrases.txt](./typos_lib/wrong_Chinese_phrases.txt) for more examples.
 
 ## 1.5. wrong English phrases
