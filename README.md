@@ -29,7 +29,7 @@
 
 ### 1. Features
 
-Currently, only some typos are supported. Also, binary text are not supported.
+Currently, typos lookup for non-binary files (text files such as .txt and .md, code script files such as .py and .c) are supported. The typos lib is extensible and customizable, and supports regular expressions.
 
 #### 1.1. repeated English words
 
