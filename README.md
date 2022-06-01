@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-05-24 22:16:57
+ * @LastEditTime: 2022-06-02 00:26:16
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -24,6 +24,7 @@
   - [1.5. wrong English phrases](#15-wrong-english-phrases)
 - [2. Using](#2-using)
 - [3. Search Results](#3-search-results)
+- [4. TODO](#4-todo)
 
 ---
 
@@ -76,6 +77,10 @@ Some examples of search results are as follows:
 ![typos_show1](./typos_show/typos_show1.png)
 ![typos_show2](./typos_show/typos_show2.png)
 ![typos_show3](./typos_show/typos_show3.png)
+
+### 4. TODO
+
+- [ ] Automatically fix some typos that know the correct spelling.
 
 ---
 
