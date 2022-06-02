@@ -55,7 +55,7 @@ Eg: `reasoning framework`, see [wrong_English_phrases.txt](./typos_lib/wrong_Eng
 
 #### 1.6. Automatically fix some typos
 
-Eg: `acheive` --> `achieve`, see [auto_fix.txt](./typos_lib/auto_fixs.txt) for more examples.
+Eg: `acheive` --> `achieve`, see [auto_fix.txt](./typos_lib/auto_fix.txt) for more examples.
 
 **Disclaimer**: Use the [auto_fix.sh](./auto_fix.sh) script only when you are very sure that the typo(s) and target paths you want to modify are accurate and correct. Because batch automatic modification brings convenience, it may also bring wrong modification.
 
