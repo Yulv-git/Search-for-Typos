@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-06-02 21:07:02
+ * @LastEditTime: 2022-06-02 21:12:37
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -57,7 +57,7 @@ Eg: `reasoning framework`, see [wrong_English_phrases.txt](./typos_lib/wrong_Eng
 
 Eg: `acheive` --> `achieve`, see [auto_fix.txt](./typos_lib/auto_fixs.txt) for more examples.
 
-**Disclaimer**: Use the auto_fix.sh script only when you are very sure that the typo(s) and target paths you want to modify are accurate and correct. Because batch automatic modification brings convenience, it may also bring wrong modification.
+**Disclaimer**: Use the [auto_fix.sh](./auto_fix.sh) script only when you are very sure that the typo(s) and target paths you want to modify are accurate and correct. Because batch automatic modification brings convenience, it may also bring wrong modification.
 
 ### 2. Using
 
