@@ -4,7 +4,7 @@
  * @Date: 2022-04-10 23:50:20
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-06-02 20:58:49
+ * @LastEditTime: 2022-06-02 21:07:02
  * @FilePath: /Search-for-Typos/README.md
  * @Description: Search for typos in code or text.
  * Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -12,7 +12,7 @@
 
 <h1><center> Search for Typos </h1></center>
 
-    Search for typos in code or text. In addition, automatic modification of some typos is supported. 查找文本或代码中的拼写错误/打字错误。此外，支持部分typos的自动修改。
+    Search for typos in code or text, automatically fix some typos. 查找文本或代码中的拼写错误/打字错误，自动修改部分 typos。
 
 ---
 
