@@ -4,7 +4,7 @@
  # @Date: 2022-04-30 21:46:45
  # @Motto: Entities should not be multiplied unnecessarily.
  # @LastEditors: Shuangchi He
- # @LastEditTime: 2022-05-03 11:32:43
+ # @LastEditTime: 2022-06-04 11:04:37
  # @FilePath: /Search-for-Typos/search_typos_exclude_dir_exclude.sh
  # @Description: Search for typos in code or text.
  # Repository: https://github.com/Yulv-git/Search-for-Typos
@@ -61,7 +61,7 @@ done < ${current_dir}/typos_lib/wrong_Chinese_phrases.txt
 # wrong English phrases
 while read item
 do
-    item2=${item//'_'/' '}
+    item2=${item//"Space=Blank"/" "}
     echo "Is this English phrase '${item2}' used wrong???"
     grep -r -i -w -n --color=auto "${item2}" ${target_dir} --exclude-dir=${exclude_dir} --exclude=${exclude}
 done < ${current_dir}/typos_lib/wrong_English_phrases.txt
