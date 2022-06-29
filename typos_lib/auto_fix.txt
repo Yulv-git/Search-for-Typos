@@ -1,4 +1,6 @@
 acheive-->achieve
 seperate-->separate
 traing-->training
-[*]*nameSpace=Blank*[(（][(（]*Space=Blank*strSpace=Blank*[,，][,，]*Space=Blank*可选Space=Blank*[)）][)）]*.*[.。]-->**name**Space=Blank(str，可选)Space=Blank-Space=Blank具体用法请参见Space=BlankSpace=Blank:ref:`api_guide_Name`Space=Blank，一般无需设置，默认值为Space=BlankNone。
+Traing-->Training
+[-]Space=Blank[*]*name[*]*Space=Blank[(（].*api.*[.。]-->-Space=Blank**name**Space=Blank(str，可选)Space=Blank-Space=Blank具体用法请参见Space=Blank:ref:`api_guide_Name`，一般无需设置，默认值为Space=BlankNone。
+[*]*name[*]*.*[(（].*str.*[,，].*option.*[.。]-->nameSpace=Blank(str,Space=Blankoptional):Space=BlankForSpace=Blankdetails,Space=BlankpleaseSpace=BlankreferSpace=BlanktoSpace=Blank:ref:`api_guide_Name`.Space=BlankGenerally,Space=BlanknoSpace=BlanksettingSpace=BlankisSpace=Blankrequired.Space=BlankDefault:Space=BlankNone.
