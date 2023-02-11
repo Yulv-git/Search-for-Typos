@@ -23,6 +23,7 @@ echo "exclude: ${exclude}"
 # repeated English words
 while read item
 do
+    item=`echo ${item} | sed 's/\r//'`
     item2="${item} ${item}"
     echo
     echo "Could the word '${item}' be repeated???"
@@ -33,6 +34,7 @@ done < ${current_dir}/typos_lib/repeated_English_words.txt
 # repeated Chinese characters
 while read item
 do
+    item=`echo ${item} | sed 's/\r//'`
     item2="${item}${item}"
     echo
     echo "Could the character '${item}' be repeated???"
@@ -43,6 +45,7 @@ done < ${current_dir}/typos_lib/repeated_Chinese_characters.txt
 # typos of English words/strings
 while read item
 do
+    item=`echo ${item} | sed 's/\r//'`
     echo
     echo "Could the word/string '${item}' be a typo???"
     grep -r -i -n --color=auto "${item}" ${target_dir} --exclude-dir=${exclude_dir} --exclude=${exclude}
@@ -52,6 +55,7 @@ done < ${current_dir}/typos_lib/typos_English_words_strings.txt
 # wrong Chinese phrases
 while read item
 do
+    item=`echo ${item} | sed 's/\r//'`
     echo
     echo "Is this Chinese phrase '${item}' used wrong???"
     egrep -r -n --color=auto "${item}" ${target_dir} --exclude-dir=${exclude_dir} --exclude=${exclude}
@@ -61,6 +65,7 @@ done < ${current_dir}/typos_lib/wrong_Chinese_phrases.txt
 # wrong English phrases
 while read item
 do
+    item=`echo ${item} | sed 's/\r//'`
     item2=${item//"Space=Blank"/" "}
     echo "Is this English phrase '${item2}' used wrong???"
     grep -r -i -w -n --color=auto "${item2}" ${target_dir} --exclude-dir=${exclude_dir} --exclude=${exclude}

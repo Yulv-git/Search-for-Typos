@@ -19,6 +19,7 @@ echo "target_dir: ${target_dir}"
 # auto fix some typos
 while read item
 do
+    item=`echo ${item} | sed 's/\r//'`
     item2=(${item//"-->"/" "})
     item_key=${item2[0]}
     item_value=${item2[1]}
